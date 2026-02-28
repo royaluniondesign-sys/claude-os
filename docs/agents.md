@@ -15,7 +15,7 @@ These run automatically during `/gsd:*` workflows.
 | `gsd-verifier` | `.claude/agents/gsd-verifier.md` | Validates deliverables against phase goals |
 | `gsd-debugger` | `.claude/agents/gsd-debugger.md` | Systematic root-cause diagnosis |
 | `gsd-roadmapper` | `.claude/agents/gsd-roadmapper.md` | Builds phased project roadmaps |
-| `gsd-planner` | `.claude/agents/gsd-plan-checker.md` | Verifies plans pass quality bar before execution |
+| `gsd-plan-checker` | `.claude/agents/gsd-plan-checker.md` | Verifies plans pass quality bar before execution |
 | `gsd-phase-researcher` | `.claude/agents/gsd-phase-researcher.md` | Deep domain research before planning |
 | `gsd-project-researcher` | `.claude/agents/gsd-project-researcher.md` | Ecosystem and technology research |
 | `gsd-research-synthesizer` | `.claude/agents/gsd-research-synthesizer.md` | Synthesizes research into actionable findings |

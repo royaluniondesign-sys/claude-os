@@ -58,7 +58,7 @@ echo -e "${GREEN}✓ Node.js $(node --version)${RESET}"
 if ! command -v python3 &>/dev/null; then
   echo -e "${YELLOW}⚠ Python 3 not found. SEO skills will be limited.${RESET}"
 else
-  echo -e "${GREEN}✓ Python $(python3 --version 2>&1)${RESET}"
+  echo -e "${GREEN}✓ $(python3 --version 2>&1)${RESET}"
 fi
 
 if ! command -v git &>/dev/null; then
@@ -127,11 +127,11 @@ else
   echo -e "${YELLOW}  ⚠ SEO skill or Python not available. Skipping.${RESET}"
 fi
 
+# --- Make scripts executable (before cleanup) ---
+chmod +x "$REPO_DIR/scripts/"*.sh 2>/dev/null || true
+
 # --- Cleanup temp repo if cloned ---
 [ -n "$CLEANUP_REPO" ] && rm -rf "$CLEANUP_REPO"
-
-# --- Make scripts executable ---
-chmod +x "$REPO_DIR/scripts/"*.sh 2>/dev/null || true
 
 # --- Summary ---
 echo ""

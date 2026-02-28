@@ -36,6 +36,12 @@ if [ -z "$PROJECT_NAME" ]; then
   exit 1
 fi
 
+# Validate project name (alphanumeric, dash, underscore, dot only)
+if [[ ! "$PROJECT_NAME" =~ ^[a-zA-Z0-9._-]+$ ]]; then
+  echo -e "${RED}Error: project name must be alphanumeric (dashes, dots, underscores allowed)${RESET}"
+  exit 1
+fi
+
 TEMPLATE_DIR="$TEMPLATES_DIR/$TEMPLATE"
 if [ ! -d "$TEMPLATE_DIR" ]; then
   echo -e "${RED}Template '$TEMPLATE' not found.${RESET}"

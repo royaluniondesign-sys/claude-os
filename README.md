@@ -209,7 +209,7 @@ Claude OS follows a proven spec-driven development cycle that eliminates context
 ### Security
 `security-review` `security-scan` `django-security` `springboot-security`
 
-### SEO (12 skills)
+### SEO (13 skills)
 `seo` `seo-audit` `seo-technical` `seo-content` `seo-page` `seo-plan` `seo-schema` `seo-sitemap` `seo-images` `seo-geo` `seo-hreflang` `seo-programmatic` `seo-competitor-pages`
 
 ### AI & LLMs

@@ -112,4 +112,3 @@
 | `/sessions` | Session history management |
 | `/setup-pm` | Setup project management |
 | `/claw` | Start NanoClaw agent REPL |
-| `/evolve` | Evolve existing skills |

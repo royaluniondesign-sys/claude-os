@@ -1,11 +1,38 @@
+# OS
 .DS_Store
+Thumbs.db
+
+# Node
 node_modules/
-*.log
+dist/
+build/
+
+# Python
+__pycache__/
+.venv/
+*.pyc
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+coverage/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Secrets
 .env
 .env.*
 *.pem
 *.key
-__pycache__/
-.venv/
-*.pyc
+
+# Logs
+*.log
+
+# Backup files
+*.bak
+
+# GSD planning (per-project, not in the OS repo)
 .planning/
