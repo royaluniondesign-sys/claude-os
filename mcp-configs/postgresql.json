@@ -1,0 +1,10 @@
+{
+  "mcpServers": {
+    "postgresql": {
+      "command": "npx",
+      "args": ["-y", "@modelcontextprotocol/server-postgres", "postgresql://user:password@localhost:5432/dbname"],
+      "description": "Direct PostgreSQL access: queries, schema inspection, migrations",
+      "setup": "Run: ./scripts/install-mcp-postgres.sh"
+    }
+  }
+}

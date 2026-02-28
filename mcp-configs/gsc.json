@@ -1,0 +1,13 @@
+{
+  "mcpServers": {
+    "gsc": {
+      "command": "python3",
+      "args": ["-m", "mcp_gsc"],
+      "env": {
+        "GOOGLE_CREDENTIALS_PATH": "/path/to/credentials.json"
+      },
+      "description": "Google Search Console: rankings, clicks, impressions, indexing coverage",
+      "setup": "Run: ./scripts/install-mcp-gsc.sh"
+    }
+  }
+}

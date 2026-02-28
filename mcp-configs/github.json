@@ -1,0 +1,13 @@
+{
+  "mcpServers": {
+    "github": {
+      "command": "npx",
+      "args": ["-y", "@modelcontextprotocol/server-github"],
+      "env": {
+        "GITHUB_PERSONAL_ACCESS_TOKEN": "YOUR_TOKEN_HERE"
+      },
+      "description": "GitHub integration: PRs, issues, commits, Actions CI/CD",
+      "setup": "Run: ./scripts/install-mcp-github.sh"
+    }
+  }
+}

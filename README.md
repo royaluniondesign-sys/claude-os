@@ -4,11 +4,11 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-a78bfa?style=for-the-badge)](LICENSE)
 [![Claude Code](https://img.shields.io/badge/Claude%20Code-Compatible-6d28d9?style=for-the-badge&logo=anthropic&logoColor=white)](https://claude.ai/code)
-[![Agents](https://img.shields.io/badge/Agents-31+-4f46e5?style=for-the-badge&logo=robot&logoColor=white)](#agents)
-[![Skills](https://img.shields.io/badge/Skills-69+-7c3aed?style=for-the-badge&logo=lightning&logoColor=white)](#skills)
-[![Commands](https://img.shields.io/badge/Commands-64+-8b5cf6?style=for-the-badge&logo=terminal&logoColor=white)](#commands)
-[![MCP](https://img.shields.io/badge/MCP%20Servers-Ready-c4b5fd?style=for-the-badge&logo=plug&logoColor=white)](#mcp-servers)
-[![Platform](https://img.shields.io/badge/Platform-macOS%20%7C%20Linux%20%7C%20Windows-ddd6fe?style=for-the-badge)](#installation)
+[![Agents](https://img.shields.io/badge/Agents-31+-4f46e5?style=for-the-badge&logo=dependabot&logoColor=white)](#agents)
+[![Skills](https://img.shields.io/badge/Skills-69+-7c3aed?style=for-the-badge&logo=bookstack&logoColor=white)](#skills)
+[![Commands](https://img.shields.io/badge/Commands-64+-8b5cf6?style=for-the-badge&logo=gnubash&logoColor=white)](#commands)
+[![MCP](https://img.shields.io/badge/MCP%20Servers-Ready-c4b5fd?style=for-the-badge&logo=serverless&logoColor=white)](#mcp-servers)
+[![Platform](https://img.shields.io/badge/Platform-macOS%20%7C%20Linux%20%7C%20Windows-ddd6fe?style=for-the-badge)](#quick-install)
 
 <br/>
 
@@ -16,7 +16,7 @@
 
 <br/>
 
-[**Quick Install**](#-quick-install) · [**What's Inside**](#-whats-inside) · [**Agents**](#-agents) · [**Commands**](#-commands) · [**Skills**](#-skills) · [**MCPs**](#-mcp-servers) · [**Workflow**](#-workflow) · [**Templates**](#-templates) · [**Docs**](docs/)
+[**Quick Install**](#quick-install) · [**What's Inside**](#whats-inside) · [**Agents**](#agents) · [**Commands**](#commands) · [**Skills**](#skills) · [**MCPs**](#mcp-servers) · [**Workflow**](#workflow) · [**Templates**](#templates) · [**Docs**](docs/getting-started.md)
 
 </div>
 
